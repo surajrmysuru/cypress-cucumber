@@ -6,7 +6,7 @@ Feature: The TOI
   @TOI
   Scenario: Opening TOI page
     Given I open TOI page
-    Then I see "Times of India" in the title
+    Then I see "Times of India" in the title of the page
 
   @another-tag-to-include @some-other-tag
   Scenario: Different kind of opening
