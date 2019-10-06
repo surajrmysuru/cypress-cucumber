@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
     "test:all": "cypress run --spec \"**/*.features\"",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "test:tag": "cypress run --spec \"**/*.feature\" -e TAGS=\"@Polymer\""
   },
   "repository": {
     "type": "git",
